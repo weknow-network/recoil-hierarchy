@@ -23,20 +23,13 @@ export const postObjectHierarchicSelector = selectorFamily<IPost, number>({
     return post;
   },
   set: (id) => async ({ set /*get */, reset }, post) => {
-    // let value: IPost;
     if (guardRecoilDefaultValue(post)) {
-      // value = await postByIdProxy(id);
-      // console.log(`@@ [${id}] DEFAULT: ${JSON.stringify(value)}`);
       reset(postIdFiledAtom(id));
       reset(postUserIdFiledAtom(id));
       reset(postTitleFiledAtom(id));
       reset(postBodyFiledAtom(id));
       return;
     }
-    //  else {
-    //   value = post;
-    //   console.log(`@@ [${id}] VALUE: ${JSON.stringify(value)}`);
-    // }
 
     set(postIdFiledAtom(id), post.id);
     set(postUserIdFiledAtom(id), post.userId);
