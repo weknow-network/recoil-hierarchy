@@ -1,0 +1,89 @@
+{
+  "workbench.colorCustomizations": {
+    // https://code.visualstudio.com/api/references/theme-color
+    //   // "sideBar.background": "#fadbadc3",
+
+    "titleBar.activeBackground": "#27525ac3",
+    "titleBar.activeForeground": "#fbf5fbc3"
+  },
+
+  "cSpell.words": [
+    "APAC",
+    "Deutsch",
+    "Gilroy",
+    "Know’s",
+    "brainer",
+    "camelcase",
+    "checkmark",
+    "chps",
+    "clickaway",
+    "clsx",
+    "devtools",
+    "dropzone",
+    "eqeqeq",
+    "esnext",
+    "flowtype",
+    "focusable",
+    "imgfnc",
+    "logrocket",
+    "middlewares",
+    "nextjs",
+    "nowrap",
+    "persistor",
+    "plusplus",
+    "readonly",
+    "roboto",
+    "scroller",
+    "stylelint",
+    "subobjectives",
+    "swal",
+    "sweetalert",
+    "toastify",
+    "unfetch"
+  ],
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".vscode",
+    "typings",
+    "/public/static/de/**",
+    "/public/static/he/**"
+  ],
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true
+}
