@@ -9,7 +9,7 @@
     "export": "next build && next export && serve out -l 3001"
   },
   "dependencies": {
-    "next": "^10.0.3",
+    "next": "^11.1.0",
     "npm-check-updates": "^10.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
